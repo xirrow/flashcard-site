@@ -1,0 +1,44 @@
+.dark-mode {
+    background-color: #282828;
+    color: #ffffff;
+}
+
+.original-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+    .column {
+        width: 33%;
+        float: left;
+        padding: 20px;
+        list-style-type: none;
+    }
+    .column a {
+        display: block;
+    }
+    #decoration {
+        display: flex;
+    }
+    img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #008080;
+        color: #ffffff;
+    }
+}
