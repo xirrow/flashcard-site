@@ -1,6 +1,6 @@
 # Flashcard Site
 
-#### Calculator app - JavaScript
+#### Flashcard site - JavaScript/jQuery
 
 #### By Zack Worrix
 
