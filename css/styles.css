@@ -1,44 +1,71 @@
-.dark-mode {
-    background-color: #282828;
-    color: #ffffff;
+body {
+    text-decoration: none;
 }
 
-.original-mode {
-    background-color: #ffffff;
-    color: #000000;
+#showing,
+#showing2,
+#showing3,
+#showing4,
+#showing5,
+#showing6,
+#showing7,
+#showing8,
+#showing9,
+#showing10,
+#showing11,
+#showing12,
+#showing13,
+#showing14,
+#showing15,
+#showing16,
+#showing17,
+#showing18,
+#showing19 {
+    display: none;
 }
 
-@media screen and (min-width: 768px) {
-    .column {
-        width: 33%;
-        float: left;
-        padding: 20px;
-        list-style-type: none;
-    }
-    .column a {
-        display: block;
-    }
-    #decoration {
-        display: flex;
-    }
-    img {
-        height: 250px;
-    }
+.clickable,
+.clickable2,
+.clickable3,
+.clickable4,
+.clickable5,
+.clickable6,
+.clickable7,
+.clickable8,
+.clickable9,
+.clickable10,
+.clickable11,
+.clickable12,
+.clickable13,
+.clickable14,
+.clickable15,
+.clickable16,
+.clickable17,
+.clickable18,
+.clickable19 {
+    cursor: pointer;
+    color: #0088cc;
+    font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        background-color: #000000;
-        color: #ffffff;
-    }
-    img {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    body {
-        background-color: #008080;
-        color: #ffffff;
-    }
+.clickable:hover,
+.clickable2:hover,
+.clickable3:hover,
+.clickable4:hover,
+.clickable5:hover,
+.clickable6:hover,
+.clickable7:hover,
+.clickable8:hover,
+.clickable9:hover,
+.clickable10:hover,
+.clickable11:hover,
+.clickable12:hover,
+.clickable13:hover,
+.clickable14:hover,
+.clickable15:hover,
+.clickable16:hover,
+.clickable17:hover,
+.clickable18:hover,
+.clickable19:hover {
+    text-decoration: underline;
 }
