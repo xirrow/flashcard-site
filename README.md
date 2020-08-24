@@ -18,6 +18,7 @@
 * HTML
 * CSS
 * JavaScript
+* jQuery
 
 ## Legal
 
